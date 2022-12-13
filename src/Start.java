@@ -27,9 +27,9 @@ public class Start {
     public void T6(){
     }
 
-    public void T7(){
+    public void T7(int[] y){
         int[] mass = {2,2,2,2,2};
-        Task7.t7(mass);
+        Task7.t7(y);
     }
 
     public void T8(){
