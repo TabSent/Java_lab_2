@@ -1,9 +1,9 @@
 import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         Start st = new Start();
-        /*st.T4();*/
-        st.T7(new int[]{1, 2, 3, 4});
+        st.T1();
+
     }
 }
