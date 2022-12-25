@@ -11,7 +11,7 @@ public class Task9 {
     public void stack() {
         Scanner scan = new Scanner(System.in);
         Stack<String> stack = new Stack<>();
-        String[] a = scan.nextLine().split("");
+        String[] a = scan.nextLine().split(" ");
         for (String i : a) {
             stack.push(i);
         }

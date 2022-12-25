@@ -42,10 +42,15 @@ public class Start {
     }
 
     public void T10(){
-
+        Task10 task = new Task10();
+        task.t10();
     }
 
     public void T11(){
+        int[] a = {1,2,3,4,9};
+        int[] b = {38,43,4,2,490};
+        Task11 task11 = new Task11();
+        task11.t11(a, b);
 
     }
 
@@ -54,6 +59,6 @@ public class Start {
     }
 
     public void T13(){
-
+        Task13.t13();
     }
 }
